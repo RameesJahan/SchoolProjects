@@ -2,16 +2,16 @@
 #include <math.h>
 
 int main() {
-	float a, b, a1, b2, gdistance;
-	printf("Input a: ");
-	scanf("%f", &a);
-	printf("Input b: ");
-	scanf("%f", &b);
-    printf("Input a1: ");
-	scanf("%f", &a1);
-	printf("Input b2: ");
-	scanf("%f", &b2);
-	gdistance = ((a1-a)*(a1-a))+((b2-b)*(b2-b));
+	float x1, y1, x2, y2, gdistance;
+	printf("Input x1: ");
+	scanf("%f", &x1);
+	printf("Input y1: ");
+	scanf("%f", &y1);
+    printf("Input x2: ");
+	scanf("%f", &x2);
+	printf("Input y2: ");
+	scanf("%f", &y2);
+	gdistance = ((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1));
 	printf("Distance between the said points: %.4f", sqrt(gdistance));
 	printf("\n");
 	return 0;
