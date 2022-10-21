@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <center>
+            <h1>Student Registration Form</h1>
+        </center>
+        <fieldset>
+            <legend>Student Details : </legend>
+            <label>Name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="firstname" placeholder="Name" size="20">
+            <br>Address :<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea cols="30" rows="5" placeholder="Address"></textarea>
+            <br><br>Gender :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" value="Male" checked>Male
+            <input type="radio" name="gender" value="Female" >Female
+            <input type="radio" name="gender" value="Transgender" >Transgender
+            <br>Qualification :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select>
+                <option value="sslc">SSLC</option>
+                <option value="plustwo">Plus Two</option>
+                <option value="ug">Graduate</option>
+                <option value="pg">Post Graduate</option>
+                <option value="mphil">Mphil</option>
+                <option value="phd">Phd</option>
+            </select>
+            <br>Language Known :
+            <input type="checkbox" name="eng">English
+            <input type="checkbox" name="malayalam">Malayalam
+            <input type="checkbox" name="hindi">Hindi <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>
